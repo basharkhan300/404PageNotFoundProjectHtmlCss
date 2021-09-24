@@ -13,22 +13,19 @@
 
 .notFound {
   width: 133px;
-  height: 25px;
   margin-top: 20px;
   margin-left: 24px;
   font-weight: bold;
+  font-family: "Inconsolata", monospace;
 }
 
 /* scarecrow image */
 
 img {
   width: 286.83px;
-  height: 220.35px;
   position: absolute;
-  left: 11.73%;
-  right: 11.78%;
-  top: 11.49%;
-  bottom: 65.29%;
+  left: 43px;
+  top: 110px;
 }
 
 /* bad news for you part */
@@ -41,20 +38,22 @@ img {
   font-weight: bold;
   font-size: 48px;
   line-height: 71px;
-  letter-spacing: 0.15em;
+  font-family: "Space Mono", monospace;
+  word-spacing: -0.1em;
+  color: #333333;
 }
 
 /* Page you looking for not available aprt */
 
 .smallText {
   width: 328px;
-  /* height: 81px; */
   position: absolute;
   margin-top: 579px;
   margin-left: 23px;
-  font-size: 18px;
-  line-height: 26.6px;
-  letter-spacing: 0.12em;
+  font-size: 17px;
+  font-style: normal;
+  font-family: "Space Mono", monospace;
+  color: #4f4f4f;
 }
 
 /* Box inside which BACK TO HOMEPAGE text is written */
@@ -75,14 +74,17 @@ img {
 
 .backToHomepageContent {
   align-self: center;
+  font-family: "Space Mono", monospace;
   font-size: 14px;
 }
 
 /* created by username part */
 footer {
   width: 287px;
-  position: absolute;
   margin-top: 908px;
   margin-left: 46px;
   margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #bdbdbd;
+  font-size: 13px;
 }
