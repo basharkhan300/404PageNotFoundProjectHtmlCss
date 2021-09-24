@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* width of container is 411 */
+
 .container {
   display: flex;
   flex-direction: column;
@@ -12,7 +14,7 @@
 /* 404 NOT FOUND part */
 
 .notFound {
-  width: 133px;
+  width: 32%;
   margin-top: 20px;
   margin-left: 24px;
   font-weight: bold;
@@ -22,7 +24,7 @@
 /* scarecrow image */
 
 img {
-  width: 286.83px;
+  width: 69.79%;
   position: absolute;
   left: 43px;
   top: 110px;
@@ -31,12 +33,12 @@ img {
 /* bad news for you part */
 
 .badNews {
-  width: 350px;
+  width: 85%;
   position: absolute;
   margin-top: 407px;
   margin-left: 24px;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 71px;
   font-family: "Space Mono", monospace;
   word-spacing: -0.1em;
@@ -46,11 +48,11 @@ img {
 /* Page you looking for not available aprt */
 
 .smallText {
-  width: 328px;
+  width: 79.8%;
   position: absolute;
   margin-top: 579px;
   margin-left: 23px;
-  font-size: 17px;
+  font-size: 1.1rem;
   font-style: normal;
   font-family: "Space Mono", monospace;
   color: #4f4f4f;
@@ -60,7 +62,7 @@ img {
 
 .backToHomepageBox {
   display: flex;
-  width: 216px;
+  width: 52%;
   height: 68px;
   position: absolute;
   margin-top: 726px;
@@ -75,16 +77,16 @@ img {
 .backToHomepageContent {
   align-self: center;
   font-family: "Space Mono", monospace;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 /* created by username part */
 footer {
-  width: 287px;
+  width: 69%;
   margin-top: 908px;
   margin-left: 46px;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
-  font-size: 13px;
+  font-size: 0.8125rem;
 }
