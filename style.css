@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 404 NOT FOUND part */
+
+.notFound {
+  width: 133px;
+  height: 25px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-weight: bold;
+}
+
+/* scarecrow image */
+
+img {
+  width: 286.83px;
+  height: 220.35px;
+  position: absolute;
+  left: 11.73%;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 65.29%;
+}
+
+/* bad news for you part */
+
+.badNews {
+  width: 350px;
+  position: absolute;
+  margin-top: 407px;
+  margin-left: 24px;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: 0.15em;
+}
+
+/* Page you looking for not available aprt */
+
+.smallText {
+  width: 328px;
+  /* height: 81px; */
+  position: absolute;
+  margin-top: 579px;
+  margin-left: 23px;
+  font-size: 18px;
+  line-height: 26.6px;
+  letter-spacing: 0.12em;
+}
+
+/* Box inside which BACK TO HOMEPAGE text is written */
+
+.backToHomepageBox {
+  display: flex;
+  width: 216px;
+  height: 68px;
+  position: absolute;
+  margin-top: 726px;
+  margin-left: 24px;
+  background-color: black;
+  color: white;
+  justify-content: space-evenly;
+}
+
+/* BACK TO HOMEPAGE text */
+
+.backToHomepageContent {
+  align-self: center;
+  font-size: 14px;
+}
+
+/* created by username part */
+footer {
+  width: 287px;
+  position: absolute;
+  margin-top: 908px;
+  margin-left: 46px;
+  margin-bottom: 10px;
+}
