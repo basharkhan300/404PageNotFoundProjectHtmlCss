@@ -65,9 +65,10 @@ img {
 }
 
 /* created by username part */
-span p {
+span{
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   font-size: 0.8125rem;
   text-align: center;
+  margin-left: 60px;
 }
