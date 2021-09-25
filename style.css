@@ -10,15 +10,15 @@ body {
   font-size: 15px;
 }
 
-.container{
+.container {
   padding: 22px 22px;
   display: flex;
   flex-direction: column;
-  
+  margin-bottom: 64px;
 }
 
 /* 404 NOT FOUND part */
-.notFound {
+.not-found {
   font-weight: bold;
   font-family: "Inconsolata", monospace;
   font-size: 1.5rem;
@@ -34,13 +34,13 @@ body {
 
 /* scarecrow image */
 
-img{
+img {
   width: 286px;
 }
 
 /* bad news for you part */
 
-.badNews {
+.bad-news {
   font-weight: bold;
   font-size: 3rem;
   word-spacing: -0.1em;
@@ -49,28 +49,25 @@ img{
 
 /* Page you looking for not available part */
 
-.smallText {
+.small-text {
   font-size: 1.3rem;
   color: #4f4f4f;
   margin-top: 37px;
-
 }
 
-.backToHomepage{
- background-color: #333333; 
- color: white;
- text-align: center;
- padding: 20px;
- width: 220px;
- margin-top: 70px;
-
+.button {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 220px;
+  margin-top: 70px;
 }
 
 /* created by username part */
-footer {
+span p {
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   font-size: 0.8125rem;
   text-align: center;
-  margin-top: 65px;
 }
