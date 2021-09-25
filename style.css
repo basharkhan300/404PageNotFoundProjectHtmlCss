@@ -1,92 +1,76 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* width of container is 411 */
+html,
+body {
+  font-family: "Space Mono";
+  font-size: 15px;
+}
 
-.container {
+.container{
+  padding: 22px 22px;
   display: flex;
   flex-direction: column;
+  
 }
 
 /* 404 NOT FOUND part */
-
 .notFound {
-  width: 32%;
-  margin-top: 20px;
-  margin-left: 24px;
   font-weight: bold;
   font-family: "Inconsolata", monospace;
+  font-size: 1.5rem;
+}
+
+/* container or box whcih contain scarecrow image */
+
+.image {
+  display: flex;
+  padding: 49px;
+  justify-content: center;
 }
 
 /* scarecrow image */
 
-img {
-  width: 69.79%;
-  position: absolute;
-  left: 43px;
-  top: 110px;
+img{
+  width: 286px;
 }
 
 /* bad news for you part */
 
 .badNews {
-  width: 85%;
-  position: absolute;
-  margin-top: 407px;
-  margin-left: 24px;
   font-weight: bold;
   font-size: 3rem;
-  line-height: 71px;
-  font-family: "Space Mono", monospace;
   word-spacing: -0.1em;
   color: #333333;
 }
 
-/* Page you looking for not available aprt */
+/* Page you looking for not available part */
 
 .smallText {
-  width: 79.8%;
-  position: absolute;
-  margin-top: 579px;
-  margin-left: 23px;
-  font-size: 1.1rem;
-  font-style: normal;
-  font-family: "Space Mono", monospace;
+  font-size: 1.3rem;
   color: #4f4f4f;
+  margin-top: 37px;
+
 }
 
-/* Box inside which BACK TO HOMEPAGE text is written */
+.backToHomepage{
+ background-color: #333333; 
+ color: white;
+ text-align: center;
+ padding: 20px;
+ width: 220px;
+ margin-top: 70px;
 
-.backToHomepageBox {
-  display: flex;
-  width: 52%;
-  height: 68px;
-  position: absolute;
-  margin-top: 726px;
-  margin-left: 24px;
-  background-color: black;
-  color: white;
-  justify-content: space-evenly;
-}
-
-/* BACK TO HOMEPAGE Text */
-
-.backToHomepageContent {
-  align-self: center;
-  font-family: "Space Mono", monospace;
-  font-size: 0.875rem;
 }
 
 /* created by username part */
 footer {
-  width: 69%;
-  margin-top: 908px;
-  margin-left: 46px;
-  margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   font-size: 0.8125rem;
+  text-align: center;
+  margin-top: 65px;
 }
