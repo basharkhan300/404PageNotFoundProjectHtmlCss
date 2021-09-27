@@ -24,7 +24,7 @@ body {
   font-size: 1.5rem;
 }
 
-/* container or box whcih contain scarecrow image */
+/* container or box which contain scarecrow image */
 
 .image {
   display: flex;
@@ -65,9 +65,72 @@ img {
 }
 
 /* created by username part */
-span{
+span {
   font-family: "Montserrat", sans-serif;
   color: #bdbdbd;
   font-size: 0.8125rem;
   margin-left: 60px;
+}
+
+/* Destop view code started here */
+
+@media only screen and (min-width: 960px) {
+  /* 404 NOT FOUND part */
+  .not-found {
+    font-weight: bold;
+    font-family: "Inconsolata", monospace;
+    font-size: 1.1rem;
+    margin-top: 2vh;
+    margin-left: 2vw;
+  }
+
+  img {
+    width: 35vw;
+  }
+
+  .whole-container {
+    display: flex;
+    margin-top: 30vh;
+    margin-left: 4vw;
+    justify-content: space-around;
+  }
+
+  .right-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    margin-top: 5vh;
+  }
+
+  .bad-news {
+    font-size: 3.6rem;
+  }
+
+  .small-text {
+    font-size: 1.2rem;
+  }
+
+  .small-container {
+    width: 23vw;
+    margin-top: 2vh;
+  }
+
+  .button {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 15vw;
+    margin-top: 7vh;
+  }
+
+  /* created by username part */
+  .span-container {
+    font-family: "Montserrat", sans-serif;
+    color: #bdbdbd;
+    font-size: 0.8125rem;
+    margin-top: 30vh;
+    text-align: center;
+    margin-bottom: 3vh;
+  }
 }
